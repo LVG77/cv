@@ -87,6 +87,7 @@ h1 {
   .leftPanel .smallText p, 
   .smallText a {
     font-size: 0.35cm;
+    text-align: left;
   }
   
   .contactIcon {
@@ -218,7 +219,7 @@ h1 {
   .workExperience>ul>li {
     position: relative;
     margin: 0;
-    padding-bottom: 0.4cm; /* get work ex. paragraphs closer to each other */
+    padding-bottom: 0.3cm; /* get work ex. paragraphs closer to each other */
     padding-left: 0.5cm;
   }
   
@@ -266,5 +267,9 @@ h1 {
   .workExperience>ul>li ul {
     padding-left: 0.5cm;
     list-style-type: disc;
+  }
+
+  .technologies {
+    color: ivory;
   }
   /*End Layout*/
